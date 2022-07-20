@@ -332,12 +332,10 @@ body {
     top: 0;
     left: -2px;
     overflow: auto;
-    padding-left: 40px;
-    width: calc(100vw + 2px);
-    height: 100vh;
+    padding: 48px 40px;
+    width: 100%;
+    height: 100%;
     background-color: white;
-    margin-left: 40px;
-    margin-top: 48px;
   }
   .mobile-menu.is-open {
     display: flex;
@@ -519,6 +517,7 @@ body {
   font-size: 18px;
   line-height: 1.55;
   padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   justify-content: flex-start;
   overflow: auto;
@@ -1437,6 +1436,11 @@ address {
   letter-spacing: 0.03em;
   color: #757575;
 }
+@media screen and (min-width: 1200px) {
+  .checkbox {
+    font-size: 14px;
+  }
+}
 
 .checkbox__input {
   -webkit-appearance: none;
@@ -1475,6 +1479,11 @@ address {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
+}
+@media screen and (min-width: 1200px) {
+  .checkbox__link {
+    font-size: 14px;
+  }
 }
 .checkbox__link:focus {
   outline: 3px solid #2196f3;
