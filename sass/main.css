@@ -572,6 +572,7 @@ body {
   padding-left: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  flex-grow: 1;
 }
 
 .hero-jpg-link {
@@ -596,6 +597,12 @@ body {
 .hero-jpg-link:hover .footer-soc-icon,
 .hero-jpg-link:focus .footer-soc-icon {
   background-color: #2196f3;
+}
+
+.hero-jpg-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .hero-text {
