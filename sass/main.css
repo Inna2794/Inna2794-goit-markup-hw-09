@@ -765,7 +765,7 @@ body {
 }
 
 .about {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 @media screen and (max-width: 1199px) {
   .about {
@@ -812,8 +812,6 @@ body {
 }
 
 .team {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #f5f4fa;
 }
 
@@ -974,16 +972,6 @@ body {
 .portfolio__ button:hover {
   background-color: var(--accent-color);
   color: white;
-}
-
-.customers {
-  padding: 60px 0;
-}
-@media screen and (min-width: 1200px) {
-  .customers {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 .customers__link {
